@@ -1,26 +1,51 @@
-.button, .bg{
-    -fx-background-radius: 20px;
-    -fx-border-radius: 20px;
-    -fx-border-color: black;
-    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+@font-face {
+    src: url("fonts/Audiowide-Regular.ttf");
+}
+
+.root {
+    -fx-font-size: 22;
+    -fx-background-radius: 16;
     -fx-background-insets: 0;
+    -fx-background-color: linear-gradient(to bottom right, #50A649, #5ECE76);
+    -fx-font-family: "Audiowide";
+}
+
+.topBar{
+    -fx-background-color: #41414180;
+    -fx-background-radius: 16 16 0 0;
+    -fx-padding: 0 16;
+}
+
+.scoreLabel {
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 4, 0, 0, 0);
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 16px;
+    -fx-border-radius: 18px;
     -fx-text-fill: black;
+    -fx-padding: 4 32;
 }
-.button {
-    -fx-background-color: #149921;
-}
-.bg {
-    -fx-background-color: grey;
-}
+
 .button:focused {
-    -fx-background-color: #2fc43e;
+    -fx-border-style: solid outside;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(three-pass-box, #000000, 8, 0, 0, 0);
 }
-.button:hover {
-    -fx-background-color: #2fc43e;
+
+.button:hover{
+    -fx-background-color: #dfe8df;
 }
+
 .button:pressed {
-    -fx-background-color: #67db73;
+    -fx-background-color: #c0d1c0;
 }
-.label {
-    -fx-text-fill: black;
+
+.pauseBackground {
+    -fx-background-radius: 16;
+    -fx-background-color: grey;
+    -fx-opacity: 0.5;
 }

@@ -8,5 +8,5 @@ public interface BoardProperties {
     int FIELD_WIDTH = BOARD_WIDTH/HORIZONTAL_FIELDS_NUM;
     int FIELD_HEIGHT = BOARD_HEIGHT / VERTICAL_FIELDS_NUM;
 
-    String SCORE_LABEL_PREFIX = "Wynik: ";
+    String SCORE_LABEL_PREFIX = "Wynik:  ";
 }

@@ -26,6 +26,7 @@ public class SnakeApplication extends Application {
         stage.initStyle(StageStyle.UNDECORATED);
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.setScene(scene);
         stage.show();
     }

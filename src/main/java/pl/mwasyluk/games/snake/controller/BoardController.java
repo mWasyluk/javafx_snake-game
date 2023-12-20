@@ -20,9 +20,9 @@ public class BoardController {
     @FXML
     private Pane background;
     @FXML
-    private BorderPane menuPopup;
+    private StackPane menuPopup;
     @FXML
-    private BorderPane gameOverPopup;
+    private StackPane gameOverPopup;
 
     private final Game game = new Game();
 
