@@ -29,7 +29,7 @@ public class ImageCell extends ImageView {
     private static final int yNumCells = 4;
 
     public ImageCell(int i, int j) {
-        super(new Image(Objects.requireNonNull(ImageCell.class.getResource("/snake.png")).toString()));
+        super(new Image(Objects.requireNonNull(ImageCell.class.getResource("/images/snake.png")).toString()));
 
         double cellWidth  = getImage().getWidth() / xNumCells;
         double cellHeight  = getImage().getHeight() / yNumCells;
