@@ -22,7 +22,7 @@ public class SnakePosition {
     // the tail on the left side from it and the body between both.
     // The size have to be greater than 2 and lower equal than half of the number of the board's horizontal fields.
     public static SnakePosition getDefaultSnakePositionBySize (int size) {
-        var pos = new SnakePosition();
+        SnakePosition pos = new SnakePosition();
         int maxSize = (HORIZONTAL_FIELDS_NUM / 2);
         if ( size > 2 && size <= maxSize ) {
             int headX = HORIZONTAL_FIELDS_NUM / 2;

@@ -11,26 +11,28 @@
 	<description>Snake Game built with JavaFX</description>
 
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<lombok.version>1.18.28</lombok.version>
+		<javafx.version>17.0.9</javafx.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.28</version>
+			<version>${lombok.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
-			<version>17.0.9</version>
+			<version>${javafx.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
-			<version>17.0.9</version>
+			<version>${javafx.version}</version>
 		</dependency>
 
 		<dependency>
@@ -60,7 +62,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>pl.mwasyluk.games.snake.Launcher</mainClass>
+							<mainClass>pl.mwasyluk.games.snake.SnakeApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
