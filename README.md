@@ -1,7 +1,13 @@
-# snake-game-javafx
-Snake Game with JavaFX
+# Snake Desktop Game
 
-This project was created with intention of expanding knowledge about the JUnit library. A JavaFX application provides many opportunities to consider complex and intresting test cases.
-First of all I am going to create a fully working, "production ready" Snake Game. After that, the first test classes, built with JUnit annotation, will appear. New tests will be supplied in free time, between other stuff, to refresh and consolidate this knowledge.
+### Preview 👀
+<div align="center">
+  <video src="https://github.com/mWasyluk/javafx_snake-game/assets/75240925/7566eebe-52f2-48bd-84d2-0d744fe410c8.mp4" />
+</div>
 
-Spring Boot was used here just for the experiment and will not affect any tests.
+### Used in the project:
+* Java 8
+* JavaFX 17
+* Lombok
+* JUnit
+* Maven
